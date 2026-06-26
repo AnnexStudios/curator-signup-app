@@ -2,7 +2,7 @@ import { useState } from 'react';
 import FormField from '../components/FormField';
 
 const FUNCTION_URL = 'https://waonfenqnffngbzalrsi.supabase.co/functions/v1/curator-apply';
-const LOGO = 'https://waonfenqnffngbzalrsi.supabase.co/storage/v1/object/public/email-assets/logos/shorely-logo-white-yellow.png';
+const LOGO = 'https://waonfenqnffngbzalrsi.supabase.co/storage/v1/object/public/email-assets/icons/shorely-logo-white-yellow.png';
 
 const EXPERTISE_OPTIONS = [
   { value: 'beaches',      label: 'Beaches' },

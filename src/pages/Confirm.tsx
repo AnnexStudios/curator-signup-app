@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 
-const LOGO = 'https://waonfenqnffngbzalrsi.supabase.co/storage/v1/object/public/email-assets/logos/shorely-logo-white-yellow.png';
+const LOGO = 'https://waonfenqnffngbzalrsi.supabase.co/storage/v1/object/public/email-assets/icons/shorely-logo-white-yellow.png';
 const CONFIRM_URL = import.meta.env.VITE_CURATOR_CONFIRM_FUNCTION_URL;
 
 type State = 'loading' | 'success' | 'expired' | 'already_active' | 'error';
