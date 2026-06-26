@@ -112,17 +112,17 @@ export default function Home() {
               Questions? Email{' '}
               <a href="mailto:support@shorelyibiza.app" className="text-teal underline">support@shorelyibiza.app</a>
               {' '}or WhatsApp{' '}
-              <a href="https://wa.me/447576266664" className="text-teal underline">+44 7576 266664</a>
+              <a href="https://wa.me/447889362140" className="text-teal underline">+44 7889 362140</a>
             </p>
           </div>
         ) : (
           <>
             <h1 className="font-display text-5xl text-off-white text-center mb-3">
-              Write Ibiza.
+              Write the island.
             </h1>
             <p className="text-mid-grey text-sm text-center leading-relaxed mb-10 max-w-[400px] mx-auto">
-              We're building the most comprehensive guide to Ibiza and Formentera.
-              If you know the island properly, we'd like you to help.
+              Shorely is a coastal lifestyle guide to Ibiza and Formentera.
+              If you know the island properly, we'd like you to help shape it.
             </p>
 
             <form onSubmit={handleSubmit} className="flex flex-col gap-5">
